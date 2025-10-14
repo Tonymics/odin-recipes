@@ -1,72 +1,90 @@
-html {
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
   margin: 0;
   padding: 0;
-  width: 100%;
-  box-sizing: border-box;
+  font-family: "Great Vibes", cursive;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: #1f2936;
+  background-color: #253122;
 }
 
-header {
-  margin: 0 auto;
-  padding: 0;
-  width: 80vw;
-  display: flex;
-  height: 20vh;
-  justify-content: center;
-  align-items: center;
-  /* background-color: aqua; */
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
+.header-box {
   display: flex;
   flex-direction: column;
-  height: 75vh;
-  justify-content: space-between;
-}
-
-a {
-  color: black;
-  text-decoration: none;
-}
-
-.nigeria-jollof {
-  margin: 0 auto;
-  padding: 0;
   width: 80vw;
-  height: 25vh;
-  display: flex;
+  height: 30vh;
+  margin: 0 auto;
   justify-content: center;
-  align-items: center;
-  /* background-color: brown; */
+  align-content: center;
 }
 
-.scrambled-egg {
-  margin: 0 auto;
-  padding: 0;
-  width: 80vw;
-   height: 25vh;
-  display: flex;
-  justify-content: center;
+.header-box h1 {
+  width: 78vw;
+  text-align: center;
   align-items: center;
-  /* background-color: fuchsia; */
+  margin: 0 auto;
+  color: white;
+  font-size: 5em;
 }
 
-.fried-rice {
-  margin: 0 auto;
-  padding: 0;
-  width: 80vw;
-   height: 25vh;
+.main-box {
   display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 68vh;
+  margin: 0 auto;
   justify-content: center;
-  align-items: center;
-  /* background-color: coral; */
+  align-content: center;
 }
+
+.link-list {
+  display: flex;
+  flex-direction: row;
+  width: 78vw;
+  height: 65vh;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-content: center;
+  list-style: none;
+  text-align: center;
+}
+
+li {
+  margin-top: 2.5em;
+}
+
+.jollof-img {
+  width: 25vw;
+  height: auto;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.egg-img {
+  width: 25vw;
+  height: 52vh;
+  margin: 0 auto;
+}
+
+.friedRice-img {
+  width: 25vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* font-family: "Dancing Script", cursive; */
+/* font-family: 'Pacifico', cursive; */
+/* font-family: 'Satisfy', cursive; */
+/* font-family: 'Courgette', cursive; */
